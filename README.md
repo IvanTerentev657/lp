@@ -29,11 +29,40 @@ P.S Если вы реализуете сразу LU разложение, то 
 <details><summary>Вывод программы</summary><p>
 
 <pre>
-$ python simplex_template <example_phase1.txt>
-...
+Running SIMPLEX.py with file .\example_phase1.txt...
 
-$ python simplex_template <example_phase1.txt>
-...
+n = 2
+m = 3
+c = [2. 1.]
+A = [[-1.  1.]
+ [-1. -2.]
+ [ 0.  1.]]
+b = [-1. -2.  1.]
+Solving the linear program using the Primal Simplex method...
+
+
+Result:
+Status: unbounded
+The problem is unbounded.
+
+================================================================================
+Running SIMPLEX.py with file .\example_phase2.txt...
+
+n = 3
+m = 4
+c = [3. 2. 1.]
+A = [[1. 1. 1.]
+ [2. 1. 0.]
+ [1. 3. 1.]
+ [0. 0. 1.]]
+b = [30. 40. 60. 10.]
+Solving the linear program using the Primal Simplex method...
+
+
+Result:
+Status: optimal
+Optimal solution x* = [12.5 15.   2.5]
+Optimal value = 70.0
 </pre>
 
 </p></details>
