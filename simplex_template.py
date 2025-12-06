@@ -193,7 +193,7 @@ def DualSimplex(c, A, b, basis=None, nbasis=None):
     return "optimal", sol, z
 
 
-def Solve(c, A, b, mode="primal"):
+def Solve(c, A, b, mode="dual"):
     m = A.shape[0]
     c = np.concatenate([c, np.zeros(m)])
     A = np.concatenate([A, np.eye(m)], axis=1)
