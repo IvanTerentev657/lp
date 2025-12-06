@@ -21,7 +21,7 @@ Solving the linear program using the Primal Simplex method...
 
 Result:
 Status: optimal
-Optimal solution x* = [0.e+00 0.e+00 0.e+00 1.e+06 1.e+00 1.e+02 1.e+04 0.e+00]
+Optimal solution x* = [      0.       0.       0. 1000000.]
 Optimal value = 1000000.0
 
 ================================================================================
@@ -57,7 +57,7 @@ Solving the linear program using the Primal Simplex method...
 
 Result:
 Status: optimal
-Optimal solution x* = [12.5 15.   2.5  0.   0.   0.   7.5]
+Optimal solution x* = [12.5 15.   2.5]
 Optimal value = 70.0
 
 ================================================================================
@@ -75,7 +75,7 @@ Solving the linear program using the Primal Simplex method...
 
 Result:
 Status: optimal
-Optimal solution x* = [1.  0.  1.  0.  1.5 0.  0. ]
+Optimal solution x* = [1. 0. 1. 0.]
 Optimal value = 1.0
 
 ================================================================================
