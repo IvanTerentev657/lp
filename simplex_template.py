@@ -74,7 +74,7 @@ def PrimalSimplex(c, A, b, basis=None, nbasis=None):
             x = np.zeros(n + m)
             xB = lu_solve(LU, piv, b)
             x[basis] = xB
-            return "optimal", x, float(c @ x)
+            return "optimal", x[:n], float(c @ x)
 
         aj = A[:, entering_index]
         d = lu_solve(LU, piv, aj)
